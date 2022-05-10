@@ -100,10 +100,13 @@ class QuizScreen extends StatelessWidget {
                 //? It is only executed when we tap the button with this way.
                 ...(questions[questionIndex]['answers']
                         as List<Map<String, Object>>)
-                    .map((e) => AnswerButton(
-                          text: e['text'] as String,
-                          onTap: () => answerQuestion(e['score'] as int),
-                        ))
+                    .map((e) => Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: AnswerButton(
+                            text: e['text'] as String,
+                            onTap: () => answerQuestion(e['score'] as int),
+                          ),
+                    ))
                     .toList(),
               ],
             ),
