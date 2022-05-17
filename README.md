@@ -75,8 +75,6 @@ Of course this is not a complete list of features, but it is a good starting poi
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [Flutter](https://flutter.dev/)
 * [Dart](https://dart.dev/)
 
